@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#b91e03">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game Layout</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white">
+        <!-- Tittle -->
+        <div class="logo fl_left"><h6 class="heading font-x2 text-center text-uppercase">Game Title</h6></div>
+        <!-- Navbar -->
+        <nav id="navbar" class="fl_right bg-dark">
+            <ul class="text-center">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li class="sub-menu"><a href="#">Descargas</a>
+                    <ul>
+                        <li><a href="#">Descargar Cliente</a></li>
+                        <li><a href="#">Descargar Mods</a></li>
+                    </ul>
+                </li> 
+                <li><a href="#">Vídeos</a></li>
+                <li><a href="#">Pantallas</a></li>
+                <li class="sub-menu"><a>Servidores</a>
+                    <ul>
+                        <li><a href="#">Server 1</a></li>
+                        <li><a href="#">Server 2</a></li>
+                        <li><a href="#">Server 3</a></li>
+                        <li><a href="#">Server 4</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><a>Tienda</a>
+                    <ul>
+                        <li><a href="#">Skins</a></li>
+                        <li><a href="#">Armas</a></li>
+                        <li><a href="#">Vehiculos</a></li>
+                        <li><a href="#">Casas</a></li>
+                        <li><a href="#">Negocios</a></li>
+                        <li><a href="#">Garajes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Menu Icon Bar -->
+        <div class="menu-toggle fl_right"><i class="text-white font-x1 fa fa-bars"></i></div>
+    </header>
+    <!-- Landing Section -->
+    <section class="wrapper">
+        <!-- Slider -->
+        <div class="slide-show">
+            <!-- Slide Element´s -->
+            <ul class="slider">
+                <li>
+                    <div class="image"><img src="/img/game-cartridges.jpeg" alt="High Score" srcset=""></div>
+                    <section class="text d-flex-c text-white text-center">
+                        <h6 class="heading font-x2 text-uppercase">Lorem Ipsum Dolor</h6>
+                        <p class="font-x1 my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit, dolore enim voluptates harum quae animi!</p>
+                    </section>
+                </li>
+                <li>
+                    <div class="image"><img src="/img/nintendo-nes-console.jpeg" alt="Nintendo Ds" srcset=""></div>
+                    <section class="text d-flex-c text-white text-center">
+                        <h6 class="heading font-x2 text-uppercase">Lorem Ipsum Dolor</h6>
+                        <p class="font-x1 my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit, dolore enim voluptates harum quae animi!</p>
+                    </section>
+                </li>
+                <li>
+                    <div class="image"><img src="/img/snes-controller.jpeg" alt="Nintendo Switch" srcset=""></div>
+                    <section class="text d-flex-c text-white text-center">
+                        <h6 class="heading font-x2 text-uppercase">Lorem Ipsum Dolor</h6>
+                        <p class="font-x1 my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit, dolore enim voluptates harum quae animi!</p>
+                    </section>
+                </li>
+                <li>
+                    <div class="image"><img src="/img/retro-building.jpeg" alt="Play Ps3" srcset=""></div>
+                    <section class="text d-flex-c text-white text-center">
+                        <h6 class="heading font-x2 text-uppercase">Lorem Ipsum Dolor</h6>
+                        <p class="font-x1 my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit, dolore enim voluptates harum quae animi!</p>
+                    </section>
+                </li>
+            </ul>
+            <!-- Pagination -->
+            <ol class="pagination d-flex-r text-white">
+            </ol>
+            <!-- Left Arrow -->
+            <div class="left-arrow d-flex-r text-white text-center font-x2"><i class="fa fa-chevron-left"></i></div>
+            <!-- Right Arrow -->
+            <div class="right-arrow d-flex-r text-white text-center font-x2"><i class="fa fa-chevron-right"></i></div>
+        </div>
+    </section>
+    <!-- News Section -->
+    <section class="wrapper text-dark bg-grey">
+        <div class="news p-2">
+            <h6 class="heading text-uppercase text-center font-x2">Novedades</h6>
+            <div class="news-box">
+                <div class="d-flex-c p-2">
+                    <!-- Left Item -->
+                    <div class="one_half">
+                        <article class="item bg-grey my-1">
+                            <div class="title p-1 heading text-center font-x1"><h2>Lorem Ipsum Dolor Amet</h2></div>
+                            <div class="subtite p-1 heading text-center font-x1"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4></div>
+                            <div class="image text-center"><img src="img/high-score.jpeg" alt="High Score" srcset=""></div>
+                            <div class="text my-1 p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                            <p class="text-center"><button class="btn my-1 mx-2"><a href="#">Ver artículo</a></button></p>
+                            <div class="options text-center">
+                                <ul class="p-1">
+                                    <li><i class="fa fa-comments" aria-hidden="true"><a href="#">0</a></i></li>
+                                    <li><i class="fa fa-eye" aria-hidden="true"><a href="#">100</a></i></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <!--  Right items -->
+                    <div class="one_half d-flex-c">
+                        <article class="item bg-grey my-1">
+                            <div class="title p-1 heading text-center font-x1"><h4>Lorem Ipsum Dolor Amet</h4></div>
+                            <div class="subtite p-1 heading text-center font-x1"><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6></div>
+                            <div class="image text-center"><img src="img/high-score.jpeg" alt="High Score" srcset=""></div>
+                            <div class="text my-1 p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                            <p class="text-center"><button class="btn my-1 mx-2"><a href="#">Ver artículo</a></button></p>
+                            <div class="options text-center">
+                                <ul class="p-1">
+                                    <li><i class="fa fa-comments" aria-hidden="true"><a href="#">0</a></i></li>
+                                    <li><i class="fa fa-eye" aria-hidden="true"><a href="#">100</a></i></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="item bg-grey my-1">
+                            <div class="title p-1 heading text-center font-x1"><h4>Lorem Ipsum Dolor Amet</h4></div>
+                            <div class="subtite p-1 heading text-center font-x1"><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6></div>
+                            <div class="image text-center"><img src="img/high-score.jpeg" alt="High Score" srcset=""></div>
+                            <div class="text my-1 p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                            <p class="text-center"><button class="btn my-1 mx-2"><a href="#">Ver artículo</a></button></p>
+                            <div class="options text-center">
+                                <ul class="p-1">
+                                    <li><i class="fa fa-comments" aria-hidden="true"><a href="#">0</a></i></li>
+                                    <li><i class="fa fa-eye" aria-hidden="true"><a href="#">100</a></i></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Game modes section -->
+    <section class="wrapper text-dark">
+        <div class="game-modes">
+            <h6 class="heading my-2 text-uppercase text-center font-x2">Modos de Juego</h6>
+            <div class="game-modes-box d-flex-c justify-content-space-between p-2">
+                <!-- First Item -->
+                <div class="one_half">
+                    <article class="item my-1">
+                        <div class="image text-center"><img src="img/bowling-arcade-machine.jpeg" alt="Bowling Arcade Machine" srcset=""></div>
+                        <div class="title p-1 heading text-center font-x1"><h2>Lorem Ipsum Dolor Amet</h2></div>
+                        <div class="text p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                        <p class="text-center"><button class="btn inverse my-1 mx-2"><a href="#">Ver modo</a></button></p>
+                    </article>
+                </div>  
+                <!-- Second Item -->
+                <div class="one_half">
+                    <article class="item my-1">
+                        <div class="image text-center"><img src="img/bowling-arcade-machine.jpeg" alt="Bowling Arcade Machine" srcset=""></div>
+                        <div class="title p-1 heading text-center font-x1"><h2>Lorem Ipsum Dolor Amet</h2></div>
+                        <div class="text p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                        <p class="text-center"><button class="btn inverse my-1 mx-2"><a href="#">Ver modo</a></button></p>
+                    </article>
+                </div>  
+                <!-- Third Item -->
+                <div class="one_half">
+                    <article class="item my-1">
+                        <div class="image text-center"><img src="img/bowling-arcade-machine.jpeg" alt="Bowling Arcade Machine" srcset=""></div>
+                        <div class="title p-1 heading text-center font-x1"><h2>Lorem Ipsum Dolor Amet</h2></div>
+                        <div class="text p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                        <p class="text-center"><button class="btn inverse my-1 mx-2"><a href="#">Ver modo</a></button></p>
+                    </article>
+                </div>
+                <!-- Four Item -->
+                <div class="one_half">
+                    <article class="item my-1">
+                        <div class="image text-center"><img src="img/bowling-arcade-machine.jpeg" alt="Bowling Arcade Machine" srcset=""></div>
+                        <div class="title p-1 heading text-center font-x1"><h2>Lorem Ipsum Dolor Amet</h2></div>
+                        <div class="text p-1 text-justify font-xs"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quam asperiores facilis eligendi perferendis optio architecto, voluptatum assumenda obcaecati nisi labore beatae excepturi! Assumenda ut, quia error maiores fugiat deserunt.</p></div>
+                        <p class="text-center"><button class="btn inverse my-1 mx-2"><a href="#">Ver modo</a></button></p>
+                    </article>
+                </div>  
+            </div>  
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center">
+        <div class="d-flex-c justify-content-space-between">
+            <!-- Social Networks -->
+            <div class="social-networks p-1">
+                <h2 class="heaging text-uppercase font-x1">Redes Sociales</h2>
+                <ul class="p-1">
+                    <li class="mx-1"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li class="mx-1"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="mx-1"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li class="mx-1"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="global p-1">
+                <h2 class="heaging text-uppercase font-x1">Global</h2>
+                <ul>
+                    <li class="m-1"><a href="#">Soporte</a></li>
+                    <li class="m-1"><a href="#">Políticas de Privacidad</a></li>
+                    <li class="m-1"><a href="#">Términos</a></li>
+                </ul>
+            </div>
+            <div class="thaks p-1">
+                <h3 class="heaging text-uppercase font-x1">Muchas gracias por visitarnos</h3>
+            </div>
+        </div>
+        <p class="p-1 font-xs"><small>&copy; Copyright 2019, Game Template</small></p>
+    </footer>
+    <!-- Script´s Section -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
